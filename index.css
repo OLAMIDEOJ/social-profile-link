@@ -65,7 +65,7 @@ body {
     margin-top: 2rem;
 }
 
-.container ul li button {
+/* .container ul li button {
     background-color: hsl(0, 0%, 18%);
     color: #fff;
     font-size: 1rem;
@@ -82,7 +82,31 @@ body {
 .container ul li button:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
-}
+} */
+
+.container ul li .btn {
+    display: inline-block;
+    background-color: hsl(0, 0%, 18%);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .container ul li .btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+  }
+  
+  
 
 .attribution { 
     font-size: 13px;
